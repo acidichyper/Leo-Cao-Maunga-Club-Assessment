@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 785px; /* Should be removed. Only for demonstration */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.img-wrapper {
+    display: grid;
+    height: 800px;
+}
+   
+.img-wrapper div {
+    grid-column: 1;
+    grid-row: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--gray);
+    transition: opacity 0.1s;
+}
+
+.abouttext{
+    padding: 70px;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+}
+
+.hrclass{
+    border-radius: 5px;
+    width: 80px;
+    border: 5px solid #2596be;
+}
+
+.aboutstyle{
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}

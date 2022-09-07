@@ -1,0 +1,112 @@
+
+/*Kakapo*/
+
+.sliderA{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    margin: auto;
+    display: block;
+    
+}
+
+.slidesA{
+    width: 500%;
+    height: 250px;
+    display: flex;
+}
+
+.slidesA input{
+    display: none;
+}
+
+.slideA{
+    width: 20%;
+    transition: 2s;
+}
+
+.slideA img{
+    width: 400px;
+    height: 250px;
+}
+
+
+/*Kakapo Manual slide*/
+
+.navigation-manualA{
+    position: absolute;
+    width: 400px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btnA{
+    border: 2px solid rgb(105, 243, 186);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btnA:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btnA:hover{
+    background: rgb(105, 243, 186);
+}
+
+#radioA1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radioA2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radioA3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radioA4:checked ~ .first{
+    margin-left: -60%;
+}
+
+/*Kakapo Automatic slide*/
+.navigation-autoA{
+    position: absolute;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    margin-top: 210px;
+}
+
+.navigation-autoA div{
+    border: 2px solid rgb(105, 243, 186);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-autoA div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radioA1:checked ~ .navigation-autoA .auto-btnA1{
+    background: rgb(105, 243, 186);
+}
+
+#radioA2:checked ~ .navigation-autoA .auto-btnA2{
+    background: rgb(105, 243, 186);
+}
+
+#radioA3:checked ~ .navigation-autoA .auto-btnA3{
+    background: rgb(105, 243, 186);
+}
+
+#radioA4:checked ~ .navigation-autoA .auto-btnA4{
+    background: rgb(105, 243, 186);
+}
