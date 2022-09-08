@@ -101,3 +101,8 @@ textarea{
     border: 2px solid #d36b27;
     background-color: rgb(234, 234, 234);
 }
+
+::file-selector-button {
+	display: none;
+}
+

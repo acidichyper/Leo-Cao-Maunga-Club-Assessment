@@ -529,9 +529,17 @@
             <div class="leftbox"></div>
             <div class="rightbox">
                 <h2 class="h2style">Membership Sign Up</h2>
-                <input type="text" class="field" placeholder="Your Name">
-                <input type="email" class="field" placeholder="Your Email">
-                <input type="text" class="field" placeholder="Your Phone">
+                <input type="text" class="field" placeholder="Full Name">
+                <input type="text" class="field" placeholder="Physical Address">
+
+                <label for="image_uploads">Proof of Address <small>(eg copy of power bill)</small></label>
+                <input type="file" class="field" placeholder="Proof of Address"
+                style="color: #757575;" accept="image/png, image/jpeg">
+
+                <label for="image_uploads">Proof of ID <small>(driver’s licence or passport)</small></label>
+                <input type="file" class="field" placeholder="Proof of ID"
+                style="color: #757575;" accept="image/png, image/jpeg">
+
                 <textarea class="field" placeholder="Message"></textarea>
                 <button class="btn">Send</button>
             </div>
