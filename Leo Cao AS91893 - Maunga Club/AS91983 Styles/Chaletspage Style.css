@@ -67,6 +67,6 @@
 .flip-box-back {
   background-color: #d1d5d9;
   transform: rotateY(180deg);
-  padding: 60px;
-  text-align: justify;
+  padding: 120px;
+  text-align: center;
 }
